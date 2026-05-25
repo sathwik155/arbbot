@@ -768,7 +768,7 @@ async def menu_text(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
 
 
 def main():
-    token = os.environ.get("BOT_TOKEN")
+    token = "8407802983:AAEdZVXE9RFFe7QSgvve91UQNIlO3edYJJI"
     if not token:
         raise RuntimeError("Set BOT_TOKEN environment variable.")
 
