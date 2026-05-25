@@ -378,7 +378,7 @@ async def unknown(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
-    token = os.environ.get("BOT_TOKEN")
+    token = 8407802983:AAEdZVXE9RFFe7QSgvve91UQNIlO3edYJJI
     if not token:
         raise RuntimeError("Set the BOT_TOKEN environment variable before running.")
 
